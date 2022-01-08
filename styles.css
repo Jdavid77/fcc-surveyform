@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 15vh;
+    
+    
+}
+
+header p {
+    color: white;
+    font-family: Wallpoet, sans-serif;
+    font-size: 40px;
+    
+}
+
+#title {
+    color: white;
+    font-family: Wallpoet, sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+    text-shadow: 4px 1px black;
+}
+
+
+#survey-form {
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    height: 2200px;
+    width: 1000px;
+    margin-top: 50px;
+    border-radius: 15px;
+    border: solid white;
+
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+#survey-form input[type=text],input[type=number],input[type=email] {
+    width: 750px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 12px 20px;
+}
+
+#survey-form select {
+    width: 790px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 12px 20px;
+}
+
+#survey-form button {
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    padding: 5px 20px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    border: solid white;
+}
+
+
+
+.form-group label {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.form-group textarea {
+    
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 12px 20px;
+}
+.radios {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    height: 150px;
+    width: 790px;
+    border: none;
+    border-radius: 5px;
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    height: 150px;
+    width: 790px;
+    border: none;
+    border-radius: 5px;
+
+}
+.radios label {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.radios input {
+    margin-right: 10px;
+    -ms-transform: scale(2); /* IE 9 */
+    -webkit-transform: scale(2); /* Chrome, Safari, Opera */
+    transform: scale(2);
+}
+
+.checkboxes label {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.checkboxes input {
+    margin-right: 10px;
+    -ms-transform: scale(2); /* IE 9 */
+    -webkit-transform: scale(2); /* Chrome, Safari, Opera */
+    transform: scale(2);
+}
